@@ -1,0 +1,46 @@
+{
+  "name": "raksha-bandhan-website",
+  "version": "1.0.0",
+  "description": "A beautiful, interactive Raksha Bandhan website created with love by Subhodeep Pal for his beloved sisters",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=/index.html"
+  },
+  "keywords": [
+    "raksha-bandhan",
+    "website",
+    "interactive",
+    "animation",
+    "3d-effects",
+    "siblings",
+    "love",
+    "celebration",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Subhodeep Pal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subhodeeppal/raksha-bandhan-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/subhodeeppal/raksha-bandhan-website/issues"
+  },
+  "homepage": "https://github.com/subhodeeppal/raksha-bandhan-website#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
